@@ -1,0 +1,33 @@
+baseURL: https://www.example.com/
+title: Site title
+theme:  theme-name
+copyright: "©1985 Example Inc"
+paginate: 10
+
+languageCode: en-us
+enableRobotsTXT: true
+
+googleAnalytics: UA-00000000-0
+
+permalinks:
+  blog: /:year/:month/:title/ # Modifies how blog post URLs are generated
+
+params:
+  favicon: "favicon.ico"
+  dateFormat: "Monday, January 2, 2006"
+  # Params for the site, and for the theme
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "a-static-page"
+      name: "A Static Page"
+      url: "/a-static-page/"
+      weight: 30
