@@ -1,6 +1,6 @@
 baseURL: https://www.example.com/
 title: Site title
-theme:  theme-name
+theme: # Theme by name and referenced from the /themes/ folder (added as submodules)
 copyright: "©1985 Example Inc"
 paginate: 10
 
